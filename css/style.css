@@ -1,0 +1,85 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center{
+    background: rgba(168, 211, 231, 0.9);
+    text-align: center;
+}
+.center ul{
+    display: inline-flex;
+    list-style: none;
+}
+.center ul li button{
+    color: rgb(75, 74, 74);
+    text-decoration: none;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background: rgb(244, 247, 247);
+}
+.center ul li{
+    margin: 0 30px;
+}
+.select{
+    border: 0;
+    width:12%;
+    height: 30px;
+    outline: 0;
+    border-radius: 4px;
+    color: rgb(146, 146, 146);
+}
+.search{
+    border-radius: 4px;
+    height: 30px;
+    border: 0;
+    outline: 0;
+}
+.opacitytext{
+    opacity: 0;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-body{
+    opacity: 0;
+    position: relative;
+    top: 0%;
+    background: rgba(168, 211, 231, 0.9);
+    transition: 1s;
+    width: 100%;
+    height: 70vh;
+    color: white;
+}
+.card-image{
+    position: absolute;
+    
+}
+.cardd:hover .card-body{
+    opacity: 1;
+}
+.cardd{
+    width: 350px;
+    height: 490px;
+    background: rgb(243, 255, 174);
+}
+.card-header h1{
+    background: rgb(251, 220, 255);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(92, 91, 91);
+}
+.card-image img{
+    width: 300px;
+    height: 300px;
+    padding-left: 20px;
+}
+.card-body h1{
+    font-size: 25px;
+    text-align: center;
+}
